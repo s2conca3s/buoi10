@@ -12,5 +12,5 @@ if(newtt == "N"){
 else if (newtt == "Y"){
     let ttnew = prompt("thông tin bạn muốn thêm là:")
     profile["newif"] = ttnew,
-    alert(`Tên cầu thủ: ${profile.name} --- Năm sinh : ${profile.yob} --- Quốc tịch : ${profile.nationality} --- thông tin mới : ${profile.ttnew} `)
+    alert(`Tên cầu thủ: ${profile.name} --- Năm sinh : ${profile.yob} --- Quốc tịch : ${profile.nationality} --- thông tin mới : ${profile.newif} `)
 }
